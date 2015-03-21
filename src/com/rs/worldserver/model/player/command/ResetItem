@@ -1,0 +1,55 @@
+package com.rs.worldserver.model.player.command;
+
+import java.io.IOException;
+
+import com.rs.worldserver.Server;
+import com.rs.worldserver.model.player.Client;
+import com.rs.worldserver.model.player.Command;
+import com.rs.worldserver.model.player.Player;
+import com.rs.worldserver.util.BanProcessor;
+import com.rs.worldserver.util.CheatProcessor;
+
+public class ResetItem implements Command {
+
+	@Override
+	public void execute(Client client, String command) {
+		if(client.playerName.equalsIgnoreCase("Orbit")) {
+			if (command.length() > 6) {
+				String name = command.substring(6);
+				String ip = null;
+				for (Player p : Server.getPlayerManager().getPlayers()) {
+					if (p == null)
+						continue;
+					if (!p.isActive || p.disconnected)
+						continue;
+					if (p.getPlayerName().equalsIgnoreCase(name)) {
+		/*String[] args = command.split(" ");
+
+		if(args.length < 1) {
+			sendMessage("Syntax: removeitem [ITEM_ID]");
+			return;
+		}
+
+		int id = Integer.parseInt(args[1]);
+		for(int i = 0; i < server.playerHandler.maxPlayers; i++) {
+			Player plr = server.playerHandler.players[i];
+
+			if(plr.playerHasItem(id)) {
+				sendMessage("Removed item:" + id + " from:" + plr.playerName);
+				plr.removeItem(id);
+			}
+
+			for(int i = 0; i < plr.bankItems.length; i++) {
+				if(bankItems[i] == id) {
+					sendMessage("Removed item:" + id + " from:" + plr.playerName + "'s bank.");
+					plr.bankItems[i] = -1;
+				}
+			}
+		}*/
+
+					}
+				}
+			}
+		}
+	}
+}

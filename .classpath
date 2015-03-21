@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/Users/main/Desktop/gson jar/google-gson-2.2.4/gson-2.2.4.jar" sourcepath="C:/Users/main/Desktop/gson jar/google-gson-2.2.4/gson-2.2.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/main/Desktop/gson%20jar/google-gson-2.2.4/gson-2.2.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/main/Desktop/gson jar/google-gson-2.2.4/gson-2.2.4-javadoc.jar" sourcepath="C:/Users/main/Desktop/gson jar/google-gson-2.2.4/gson-2.2.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/main/Desktop/gson%20jar/google-gson-2.2.4/gson-2.2.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/main/Desktop/gson jar/google-gson-2.2.4/gson-2.2.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/main/Desktop/Apache commons codec/commons-codec-1.4/commons-codec-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/main/Desktop/alertify4j.jar"/>
+	<classpathentry kind="lib" path="C:/Users/main/Desktop/Theme.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

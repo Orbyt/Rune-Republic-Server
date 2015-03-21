@@ -1,0 +1,9 @@
+tiles.put(0 << 28 | 3222 << 14 | 3221, true);
+tiles.put(0 << 28 | 2663 << 14 | 2643, true);
+tiles.put(0 << 28 | 3191 << 14 | 3666, true);
+tiles.put(0 << 28 | 3093 << 14 | 3489, true);
+tiles.put(0 << 28 | 2378 << 14 | 4966, true);
+tiles.put(0 << 28 | 2378 << 14 | 4962, true);
+tiles.put(0 << 28 | 2378 << 14 | 4962, true);
+tiles.put(0 << 28 | 2334 << 14 | 9809, true);
+tiles.put(0 << 28 | 3090 << 14 | 3511, true);
